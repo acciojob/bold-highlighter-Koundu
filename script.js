@@ -1,7 +1,7 @@
 function highlight() {
     //Write your code here
 	var x = document.getElementBtId("p").querySelectorAll(".strong");
-	x[0].style.color = "green";
+	x[0].style.backgroundColor = "green";
 
 }
 
