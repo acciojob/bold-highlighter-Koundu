@@ -6,11 +6,11 @@ function highlight(){
 }
 
 function return_normal(){	
-	var x=document.getElementById("p").querySelector("strong");
-	x[0].style.color = "black";
-	// for(let j=0;j<x.length;j++){
-	// x[j].style.color="black";
-	// }
+	var x=document.getElementById("p").querySelectorAll("strong");
+	// x[0].style.color = "black";
+	for(let j=0;j<x.length;j++){
+	x[j].style.color="black";
+	}
 	console.log(x);
 	console.log("Inside Return Normal")
 
